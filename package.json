@@ -1,4 +1,5 @@
 {
+  "homepage": "https://amit-5111998.github.io/Coinstats/",
   "name": "coinstats",
   "version": "0.1.0",
   "private": true,
@@ -10,6 +11,7 @@
     "aos": "^3.0.0-beta.6",
     "bootstrap": "^4.6.0",
     "framer-motion": "^3.10.5",
+    "gh-pages": "^3.1.0",
     "mdbreact": "^5.0.1",
     "react": "^17.0.1",
     "react-bootstrap": "^1.5.1",
@@ -24,6 +26,8 @@
     "web-vitals": "^1.1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
