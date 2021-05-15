@@ -1,0 +1,60 @@
+.modal {
+    font-size: 12px;
+    width: 100px;
+  }
+  .modal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+  }
+  .modal > .content {
+    /* width: 100%;
+    padding: 10px 5px; */
+    /* padding-right: 2.10526rem !important;
+    padding-left: 2.10526rem !important; */
+    /* padding: 2.10526rem 3.15789rem;
+    padding-top: 2.10526rem;
+    padding-right: 3.15789rem;
+    padding-bottom: 2.10526rem;
+    padding-left: 3.15789rem; */
+
+    /* width: 35%;
+    height: 77%;
+    border-radius: 5%; */
+    position: relative;
+    padding: 2.10526rem 3.15789rem;
+    padding-top: 2.10526rem;
+    padding-right: 3.15789rem;
+    padding-bottom: 2.10526rem;
+    padding-left: 3.15789rem;
+    background: var(--fColor);
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: width 0.5s linear 0s;
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }

@@ -1,0 +1,77 @@
+.mac{
+    /* position: absolute; */
+    /* width: 50.10526rem;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    float: right; */
+    position: absolute;
+    width: 42.10526rem;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+}
+.iphone{
+    width: 10.89474rem;
+    position: absolute;
+    bottom: -3.15789rem;
+    right: 0;
+}
+
+.watch{
+    position: absolute;
+    width: 6rem;
+    bottom: -1.57895rem;
+    right: 13.15789rem;
+
+}
+.imagesection{
+    border-radius: 10px;
+    width: 45.63158rem;
+    height: 26.31579rem;
+    padding-top: 1.05263rem;
+    position: relative;
+    
+}
+
+.jsx-3511343848{
+
+}
+.description-section{
+    width: 29.26316rem;
+    margin-left: 1.05263rem;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transform: translate(0);
+    -ms-transform: translate(0);
+    transform: translate(0);
+    opacity: 1;
+}
+
+.imagesection1{
+    border-radius: 10px;
+    width: 45.63158rem;
+    height: 26.31579rem;
+    padding-top: 1.05263rem;
+    position: relative;
+    display:none;
+}
+
+@media (max-width: 991.98px){
+    
+    .imagesection{
+        display: none;
+    }
+    .imagesection1{
+        display: block;
+    }
+    
+}

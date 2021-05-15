@@ -1,0 +1,144 @@
+.port
+    {
+        background-color: rgba(255,255,255,0.07);;
+        border-radius: .68421rem;
+        margin-top: 5px;
+    padding-top: 0.26316rem;
+    padding-right: 0.68421rem;
+    padding-bottom: 0.26316rem;
+    padding-left: 0.68421rem;
+        margin-right: 1.05263rem;
+        text-align: center;
+        color: orange;
+       
+    }
+
+
+    .fon{
+        font-size: 14px;
+    font-weight: 500;
+    /* color:rgba(255,255,255,0.8);  */
+    text-align: left;
+    margin-right: 20px;
+    position: relative;
+    color: var(--eColor);
+   
+    font-family: 'Roboto';
+    
+    
+    }
+
+
+    .light-mode {
+        --aColor: #ff7a59;
+        --bColor: #ffa959;
+        --cColor: #34c759;
+        --dColor: #ff3a30;
+        --gColor: #67b5ff;
+        --hColor: #81c924;
+        --iColor: #e9bc48;
+        --jColor: #ff9176;
+        --kColor: #febb7c;
+        --eColor: #ffffff;
+        --e3Color: rgba(255,255,255,0.03);
+        --e7Color: rgba(255,255,255,0.07);
+        --e15Color: rgba(255,255,255,0.15);
+        --e35Color: rgba(255,255,255,0.35);
+        --e50Color: rgba(255,255,255,0.5);
+        --e80Color: rgba(255,255,255,0.8);
+        --e80BackColor: rgba(44,43,43,0.64);
+        --eDarkColor: rgba(36,35,35,1);
+        --e80ColorReverse: rgba(28,27,27,0.8);
+        --fColor: #1c1b1b;
+        --lColor: #9eebb6;
+        --mColor: #ff5454;
+        --nColor: #e9bc48;
+        --oColor: #74d492;
+        --coinbaseColor: #1652f0;
+        --loadingSkeletonPrimary: rgba(255,255,255,0.03);
+    }
+
+
+    .dropdown1 { 
+        position: static !important; 
+      } 
+      
+      .dropdownmenu1 { 
+        border-bottom-style: inherit;
+        border-top-style: inherit;
+        margin-top: 0px !important; 
+        width: 100% !important;
+        height: 122px;
+        background-color:  white;
+        z-index: 1;
+      } 
+
+      .dr
+      {
+        width: 1.05263rem;
+        height: 1.05263rem;
+        margin-right: 0.52632rem;
+      } 
+
+      .boxstyle
+      {
+        position: absolute;
+        padding: 0px 0.26316rem;
+        padding-top: 0px;
+        padding-right: 0.26316rem;
+        padding-bottom: 0px;
+        padding-left: 0.26316rem;
+        background: #1c1b1b;
+        border: 1px solid (255,255,255,0.15);
+        border-radius: 0.73684rem;
+       
+      }
+
+      @media screen and (max-width: 1024px){
+     
+      .fon {
+          font-size: 12px;
+      }
+    }
+      @media screen and (max-width: 1050px){
+     
+      .fon  {
+          font-size: 13px;
+      }
+    }
+      @media screen and (max-width: 1125px)
+      {
+      .fon  {
+          font-size: 14px;
+      }
+    }
+      @media screen and (max-width: 1392px)
+     { 
+      .fon  {
+          font-size: 15px;
+      }
+    }
+      @media screen and (max-width: 1300px)
+     { 
+      .fon {
+          font-size: 17px;
+      }
+    }
+@media screen and (max-width: 1436px) {
+  .fon {
+    font-size: 13px;
+  }
+  
+} 
+@media screen and (max-width: 1440px) {
+  .fon {
+    font-size: 13px;
+  }
+  
+} 
+@media screen and (min-width: 992px) and (max-width: 1395px){
+  .fon {
+    font-size: 9px;
+  }  
+}
+

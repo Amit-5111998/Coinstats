@@ -1,0 +1,9 @@
+
+@media screen and (max-width: 992px) {
+    .disp {
+      display: none;
+    }
+    .dropdow{
+        display:block
+    }
+  }

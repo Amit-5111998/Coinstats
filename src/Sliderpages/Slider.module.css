@@ -1,0 +1,59 @@
+.chart{
+    position: relative;
+    top: -4.73684rem;
+    left: 2.63158rem;
+    width: 15.26316rem;
+}
+.wallet{
+    position: relative;
+    top: 4.73684rem;
+    left: -5.26316rem;
+    width: 15.26316rem;
+}
+
+
+.rotate {
+    animation: rotation 8s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+ 
+
+  body {
+    font: 1em sans-serif;
+    text-align: center;
+}
+.stage {
+    border-bottom: 3px solid #444;
+    display: flex;
+    height: 330px;
+    width: 100%;
+}
+.box {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+    height: 100px;
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+    width: 200px;
+}
+.bounce{
+    animation-name: bounce-3;
+    animation-timing-function: ease;
+}
+@keyframes bounce-3 {
+    0%   { transform: translateY(0); }
+    30%  { transform: translateY(-100px); }
+    50%  { transform: translateY(0); }
+    100% { transform: translateY(0); }
+}

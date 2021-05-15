@@ -1,0 +1,10 @@
+.div5 
+{  
+    animation: mymove 1s infinite;
+
+    animation-timing-function: ease-in-out;
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 20px;}
+  }

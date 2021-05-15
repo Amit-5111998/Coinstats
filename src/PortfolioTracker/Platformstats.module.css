@@ -1,0 +1,13 @@
+.uptext{
+    font-size: 1.78947rem;
+    font-weight: 300;
+    color: var(--eColor);
+}
+.title{
+    margin-top: .26316rem;
+    color: var(--e50Color);
+    font-size: 1.05263rem;
+    font-weight: 300;
+    color: var(--eColor);
+
+}

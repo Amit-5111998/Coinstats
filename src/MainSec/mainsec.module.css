@@ -1,0 +1,136 @@
+.center {
+    text-align: center;
+    margin-top: 2.10526rem;
+   
+    
+
+  }
+  .tx{
+    color: var(--eColor);
+    font-size: 1.26316rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+  }
+  .new1 {
+    border-top: 0.1px solid var(--eColor);
+  }
+
+  .bigintro {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 3.15789rem 0 0;
+    margin-top: 3.15789rem;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    text-align: left;
+   
+}
+
+
+.mainprice {
+  font-size: 1.78947rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  color: var(--eColor);
+  text-align: left;
+  margin-top: 20px;
+}
+a, span {
+  -webkit-transition: .5s color,.5s background;
+  transition: .5s color,.5s background;
+}
+
+.fishes
+{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.fish
+{
+  position: absolute;
+  top: -38px;
+  left: -32px;
+}
+
+.h1tag
+{
+  text-align: left;
+}
+
+.headingtext
+
+  {
+    color: var(--e50Color);
+    font-size: 0.63158rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.top{
+  margin: top 35px; ;
+}
+
+.gestartedbtn
+{
+  width: 11.47368rem;
+    padding: .84211rem 1.57895rem;
+    padding-top: 0.84211rem;
+    padding-right: 1.57895rem;
+    padding-bottom: 0.84211rem;
+    padding-left: 1.57895rem;
+    background-color: #e47103 ;
+    border: 0px;
+    margin-top: 40px;
+    color: var(--fColor);
+    min-width: 6.05263rem;
+    padding: .63158rem 1.57895rem;
+    border-radius: 30px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: .73684rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    -webkit-letter-spacing: 0.54px;
+    -moz-letter-spacing: 0.54px;
+    -ms-letter-spacing: 0.54px;
+    letter-spacing: 0.54px;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition: background .5s;
+    transition: background .5s;
+    position: relative;
+    font-family: Roboto,sans-serif;
+}
+
+.fab{
+  margin-top: 25px;
+}
+
+
+@media screen and (max-width: 992px) {
+  .disp {
+    text-align: center;
+  }
+  .dropdow{
+      display:block
+  }
+}

@@ -1,0 +1,54 @@
+.icon{
+    font-size: 1.68421rem;
+}
+
+.navtextcolor{
+    color: white;
+}
+
+.navext {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bta{
+    
+    background-color: #ffa959;
+    border-radius: 200px;
+    padding: 7px 7px;
+    margin: 0 auto;
+   
+    color: white;
+    border: 0;
+
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    a.icon {
+      font-size: 21px;
+  }
+}
+
+/* .subn {
+        
+
+
+
+
+
+
+
+    display: flex;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    align-items: center;
+    opacity: 0;
+    animation: 0.5s ease 0s 1 normal forwards running menuOpening;
+    background: var(--fColor);
+    padding: 1.05263rem 3.15789rem;
+    padding-top: 1.05263rem;
+    padding-right: 3.15789rem;
+    padding-bottom: 1.05263rem;
+    padding-left: 3.15789rem;
+    z-index: 1000;
+    position: relative;
+} */
